@@ -10,3 +10,4 @@ PyJWT
 bcrypt<4.1.0
 starlette
 twilio
+gunicorn
