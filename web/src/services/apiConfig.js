@@ -1,6 +1,6 @@
 import MyTeamAttendance from "../pages/Attendance/MyTeamAttendance";
 
-const LOCAL_URL = "http://localhost:8000/api";
+const LOCAL_URL = "https://crm-web-606462042332.europe-west1.run.app/api";
 // const STAGE_URL = "https://stgfastapi.selfsync.ai";
 // const PROD_URL = "https://fastapi.selfsync.ai";
 
