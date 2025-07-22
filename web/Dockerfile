@@ -3,7 +3,9 @@ FROM node:20 AS builder
 WORKDIR /app
 COPY . .
 RUN npm install
-RUN npm run build
+RUN npm run build  # builds to /dist
+RUN npm install -g serve
+
 
 # Production stage
 FROM nginx:alpine
