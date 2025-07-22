@@ -11,7 +11,7 @@
         "requirements.txt"
       ],
       "options": {
-        "cwd": "${workspaceFolder}\\api"
+        "cwd": "${workspaceFolder}/api"
       },
       "problemMatcher": []
     },
@@ -30,7 +30,7 @@
         "--reload"
       ],
       "options": {
-        "cwd": "${workspaceFolder}\\api\\src"
+        "cwd": "${workspaceFolder}/api/src"
       },
       "problemMatcher": [],
       "dependsOn": [
@@ -45,7 +45,7 @@
         "install"
       ],
       "options": {
-        "cwd": "${workspaceFolder}\\web"
+        "cwd": "${workspaceFolder}/web"
       },
       "problemMatcher": []
     },
@@ -58,7 +58,7 @@
         "dev"
       ],
       "options": {
-        "cwd": "${workspaceFolder}\\web"
+        "cwd": "${workspaceFolder}/web"
       },
       "problemMatcher": [],
       "dependsOn": [
@@ -71,7 +71,8 @@
         "Start Backend",
         "Start Frontend"
       ],
-      "dependsOrder": "parallel"
+      "dependsOrder": "parallel",
+      "problemMatcher": []
     }
   ]
 }
